@@ -3,35 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Underdog&display=swap"
+      rel="stylesheet"
+    />
     <title>Forecast App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday, 14:49, Scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13 km/h
-        </p>
-      </div>
-      <div>🌤️12°C</div>
-    </main>
-    <footer>
-      coded by <a href="https://github.com/Annemari29">Anne-mari De Klerk</a>,
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday, 14:49, Scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13 km/h
+          </p>
+        </div>
+        <div>🌤️12°C</div>
+      </main>
+      <footer>
+        coded by <a href="https://github.com/Annemari29">Anne-mari De Klerk</a>,
 
-      <a href="https://github.com/Annemari29/Forecast-App"
-        >is open-sourced on Github</a
-      >
-      and
-      <a href="https://melodious-blini-41f37e.netlify.app">hosted on Netlify</a
-      >.
-    </footer>
+        <a href="https://github.com/Annemari29/Forecast-App"
+          >is open-sourced on Github</a
+        >
+        and
+        <a href="https://melodious-blini-41f37e.netlify.app"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
