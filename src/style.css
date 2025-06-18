@@ -11,7 +11,7 @@ body {
   border-radius: 16px;
 }
 .search-form-input {
-  background-color: aquamarine;
+  background-color: rgb(192, 223, 212);
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -19,7 +19,7 @@ body {
   font-size: 16px;
 }
 .search-form-button {
-  background: lightpink;
+  background: rgb(97, 6, 133);
   color: white;
   border: none;
   border-radius: 16px;
@@ -54,26 +54,30 @@ main {
   line-height: 48px;
 }
 .weather-app-details {
+  display: flex;
+  flex-direction: column;
   font-size: 16px;
   line-height: 24px;
   color: rgba(39, 33, 66, 0.4);
 }
 .weather-app-details strong {
-  color: bisque;
+  color: rgb(228, 15, 132);
 }
 .weather-app-temperature-container {
   display: flex;
+  justify-content: right;
 }
-.weather-app-temperature {
+.weather-app-temperature-value {
+  display: flex;
   font-size: 88px;
   font-weight: bold;
   margin-left: 10px;
 }
 .weather-app-icon {
-  font-size: 44px;
+  font-size: 60px;
   margin-top: 22px;
 }
-.weather-app-unit {
+.weather-app-temperature-unit {
   margin-top: 16px;
   font-size: 28px;
 }
