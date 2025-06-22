@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Underdog&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Forecast App</title>
   </head>
   <body>
@@ -28,7 +29,7 @@
       </header>
       <main>
         <div class="weather-app-data">
-          <h1 class="weather-app-city" id="city">Paris</h1>
+          <h1 class="weather-app-city" id="city"></h1>
 
           <p class="weather-app-details">
             Tuesday, 14:49, Scattered clouds
@@ -38,7 +39,7 @@
 
           <div class="weather-app-temperature-container">
             <div class="weather-app-icon">🌤️</div>
-            <div class="weather-app-temperature-value">12</div>
+            <div class="weather-app-temperature-value" id="temperature"></div>
             <div class="weather-app-temperature-unit">°C</div>
           </div>
         </div>
